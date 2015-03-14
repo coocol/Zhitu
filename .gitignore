@@ -1,3 +1,15 @@
+.settings/
+assets/
+libs/
+res/drawable/
+res/drawable-hdpi/
+res/drawable-ldpi/
+res/drawable-mdpi/
+res/drawable-xdpi/
+res/drawable-xxdpi/
+
+
+*.png
 # Built application files
 *.apk
 *.ap_
