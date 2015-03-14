@@ -1,0 +1,56 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+      <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    
+      
+      <style name="my_actionbar_style" parent="@android:style/Widget.Holo.Light.ActionBar">  
+          <item name="android:background">#2CBD5E</item>  
+     	  <item name="android:titleTextStyle">@style/AcBar_titleStyle</item> 
+      </style>
+       
+      <style name="AcBar_titleStyle">    
+      		<item name="android:textColor">#FFFFFF</item>    
+	   </style>  
+
+     <style name="main_tab_bottom">
+        <item name="android:button">@null</item>  
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>  
+        <item name="android:background">@drawable/tab_btn_bg</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">2.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+     <style name="zhitu_edittext_style" parent="@android:style/Widget.EditText">
+          <item name="android:background">@drawable/zhitu_edittext_border</item>
+     </style>
+
+</resources>

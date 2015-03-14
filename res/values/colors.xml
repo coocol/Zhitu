@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_overlay">#660000</color>
+	<color name="login_button_color">#00CC00</color>
+	<color name="transparent1">#0000FFFF</color>
+	<color name="black">#000000</color>
+	<color name="back_gray">#F7F7F7</color>
+	<color name="comm_gray">#A1A1A1</color>
+	<color name="white">#FFFFFF</color>
+	<color name="long_button">#2CBD5E</color>
+	<drawable name="white">#FFFFFFFF</drawable>
+ 	<drawable name="black">#000000</drawable>
+  	<drawable name="blue">#0000FF</drawable>
+  	<color name="text_black">#333333</color>
+	<color name="background_tab_pressed">#6633B5E5</color> 
+	<color name="lightgoldenrodyellow">#FAFAD2</color>
+</resources>

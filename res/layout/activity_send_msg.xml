@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    tools:context="com.zhitu.xxf.SendMsgActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <EditText
+        android:id="@+id/msgeditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="139dp"
+        android:contentDescription="@string/action_example"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/msgbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/msgeditText1"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/app_name" />
+
+</RelativeLayout>
+

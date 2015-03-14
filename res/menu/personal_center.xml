@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.imagej.PersonalCenter" >
+
+    <item
+        android:id="@+id/action_personalzhitu"
+        android:orderInCategory="100"
+        android:title="@string/action_personalzhitu"
+        android:icon="@drawable/action_personalzhitu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_imagescan" 
+        android:orderInCategory="100"  
+        android:title="@string/action_imagescan"
+        android:icon="@drawable/action_imagescan"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_edting"
+        android:orderInCategory="100"
+        android:title="@string/action_edting"
+        android:icon="@drawable/action_edting"
+        app:showAsAction="never"/>
+
+</menu>

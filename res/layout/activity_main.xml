@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffcccccc"
+    android:orientation="vertical" >
+
+    <!-- 顶部 -->
+
+    <!--    <include layout="@layout/layout_title" />     -->
+     
+
+	<TextView
+	    android:id="@+id/TV_Info"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dip"
+	    android:text="info"
+	    android:textColor="#ff000000"
+	    android:textSize="24dp" />
+
+   <WebView
+        android:id="@+id/WV_View"
+        android:layout_weight="1.0"
+        android:background="@drawable/gdoubackgroudimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <LinearLayout
+        android:id="@+id/LL_ToolBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/IB_Camera"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1.0"
+            android:scaleType="fitCenter"
+            android:src="@drawable/camera" />
+        
+        <ImageButton
+            android:id="@+id/IB_Photo"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1.0"
+            android:scaleType="fitCenter"
+            android:src="@drawable/photo" />
+        
+        <ImageButton
+            android:id="@+id/IB_Painting"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1.0"
+            android:scaleType="fitCenter"
+            android:src="@drawable/painting" />
+
+        <ImageButton
+            android:id="@+id/IB_Save"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1.0"
+            android:scaleType="fitCenter"
+            android:src="@drawable/save" />
+
+    </LinearLayout>
+
+</LinearLayout>

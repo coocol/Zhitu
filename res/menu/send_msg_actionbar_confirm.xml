@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/confirm_send"
+        android:showAsAction="always"
+        android:title="@string/app_name"
+        android:icon="@drawable/zhitu_logo_no_bg" android:enabled="true" android:visible="true"/>
+
+</menu>

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_gray"
+    android:orientation="vertical"
+    tools:context="com.zhitu.xxf.MainPageActivity$PlaceholderFragment" >
+
+	<TextView
+	    android:id="@+id/index_msg_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/index_msg_new"
+	    android:textColor="@color/black_overlay" >
+	    
+	</TextView>
+    
+     <com.zhitu.dzc.MyListView
+        android:id="@+id/index_listView"
+        android:background="@color/white"
+        android:clickable="true"
+        android:divider="@color/back_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="2dp"
+        android:dividerHeight="14dp" >
+        
+    </com.zhitu.dzc.MyListView>
+
+</LinearLayout>
